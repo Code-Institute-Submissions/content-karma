@@ -90,3 +90,14 @@ header {
 #navigation-container a:hover {
   border-bottom: 2px solid black;
 }
+
+/* -- Media queries -- */
+
+/* Medium devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) {
+  header {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 10%;
+  }
+}
