@@ -34,10 +34,10 @@ h1,
   font-family: 'Ovo', serif;
 }
 
-/* Padding that will apply to all header, section and footer elements   */
-.content-padding {
-  padding: 2vh 2vw;
-}
+/* Padding that will apply to all section elements */
+/* .section-padding {
+  
+} */
 
 /* -- Header - Logo and Navigation -- */
 
@@ -47,6 +47,7 @@ header {
   align-items: center;
   gap: 10px;
   width: 100vw;
+  padding: 15px 0;
   border-bottom: 1px solid black;
 }
 
