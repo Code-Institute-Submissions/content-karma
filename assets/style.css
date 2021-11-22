@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Ovo&family=Quattrocento+Sans&display=swap');
+
+/* Set values used throughout the site as variables to allow for easy alteration */
+:root {
+  --body-bg-colour: rgb(244, 245, 247);
+}
+
+/* Configure universal box-sizing to make box model layout calculations easier */
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* Remove default margin and padding for every element on the page to keep
+spacing consistent across browsers */
+* {
+  margin: 0;
+  padding: 0;
+}
