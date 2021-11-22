@@ -23,3 +23,69 @@ spacing consistent across browsers */
   margin: 0;
   padding: 0;
 }
+
+body {
+  font-family: 'Quattrocento Sans', sans-serif;
+  font-size: 1.2rem;
+}
+
+h1,
+.logo-heading {
+  font-family: 'Ovo', serif;
+}
+
+/* Padding that will apply to all header, section and footer elements   */
+.content-padding {
+  padding: 2vh 2vw;
+}
+
+/* -- Header - Logo and Navigation -- */
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  width: 100vw;
+  border-bottom: 1px solid black;
+}
+
+#logo {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  height: 100px;
+  text-align: center;
+  user-select: none;
+  text-decoration: none;
+  color: black;
+}
+
+.logo-img {
+  height: 90%;
+}
+
+.logo-heading {
+  font-size: 30px;
+  font-weight: bolder;
+  padding-top: 2px;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+#navigation-container ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  list-style-type: none;
+}
+
+#navigation-container a {
+  text-decoration: none;
+  color: black;
+}
+
+#navigation-container a:hover {
+  border-bottom: 2px solid black;
+}
