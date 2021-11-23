@@ -62,7 +62,7 @@ section {
   padding: 25px 5%;
 }
 
-/* Standard buttons */
+/* -- Standard buttons -- */
 
 .std-btn {
   font-family: 'Quattrocento Sans', sans-serif;
@@ -70,10 +70,21 @@ section {
   padding: 15px;
   border-radius: 10px;
   background-color: #f98530;
-  border: 2px solid #f98530;
+  border: 2px solid #e2792d;
   box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.3),
     2px 4px 4px rgba(0, 0, 0, 0.3),
     3px 6px 6px rgba(0, 0, 0, 0.3);
+    transition: all 250ms;
+  user-select: none;
+}
+
+.std-btn:hover {
+  filter: brightness(105%) drop-shadow(5px 10px 10px rgba(0, 0, 0, 0.5));
+  transform: scale(1.02, 1.02);
+}
+
+.std-btn:active {
+  transform: scale(0.95, 0.95);
 }
 
 /* -- Header - Logo and Navigation -- */
