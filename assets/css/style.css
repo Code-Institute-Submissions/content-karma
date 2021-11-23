@@ -29,22 +29,51 @@ spacing consistent across browsers */
 
 body {
   font-family: 'Quattrocento Sans', sans-serif;
-  font-size: 1.2rem;
 }
 
-h1 {
+h1,
+h2,
+h3 {
   font-family: 'Ovo', serif;
+}
+
+/* Major third type scale (from type-scale.com/) - largest size unused for
+mobile screens */
+h1 {
+  font-size: 2.441rem;
+}
+
+h2 {
+  font-size: 1.953rem;
+}
+
+h3 {
+  font-size: 1.563rem;
 }
 
 /* Applies a background colour to only the sections of the page whose index is
 an even, producing and alternating colour scheme */
-section:nth-child(even){
+section:nth-child(even) {
   background-color: var(--section-primary-colour);
 }
 
 /* Padding that will apply to all section elements */
 section {
   padding: 25px 5%;
+}
+
+/* Standard buttons */
+
+.std-btn {
+  font-family: 'Quattrocento Sans', sans-serif;
+  font-size: 1.2em;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #f98530;
+  border: 2px solid #f98530;
+  box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.3),
+    2px 4px 4px rgba(0, 0, 0, 0.3),
+    3px 6px 6px rgba(0, 0, 0, 0.3);
 }
 
 /* -- Header - Logo and Navigation -- */
@@ -100,17 +129,53 @@ header {
   border-bottom: 2px solid black;
 }
 
+/* Hero section */
+
+#hero-section {
+  text-align: center;
+}
+
+/* Add padding to all children of the hero section except the last */
+#hero-section :not(:last-child) {
+  margin-bottom: 40px;
+}
+
+.hero-paragraph {
+  font-size: 1.3rem;
+}
+
 /* -- Media queries -- */
 
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) {
+
+  /* Major third type scale (from type-scale.com/) - largest size used for
+  larger screens */
+  h1 {
+    font-size: 3.052rem;
+  }
+
+  h2 {
+    font-size: 2.441rem;
+  }
+
+  h3 {
+    font-size: 1.953rem;
+  }
+
+  /* Change layout of header to suit larger screens */
   header {
     flex-direction: row;
     justify-content: space-between;
     padding: 20px 10%;
   }
 
+  /* Increase section padding */
   section {
     padding: 6vh 10%;
+  }
+
+  .hero-paragraph {
+    font-size: 1.4rem;
   }
 }
