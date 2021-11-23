@@ -181,6 +181,10 @@ header {
   margin-bottom: 20px;
 }
 
+.service-item-img {
+  max-height: 100px;
+}
+
 /* -- Media queries -- */
 
 /* Medium devices (tablets, 768px and up) */
