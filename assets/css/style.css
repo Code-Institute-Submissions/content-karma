@@ -254,7 +254,7 @@ header {
 
 /* -- Pricing section -- */
 
-#pricing-section{
+#pricing-section {
   text-align: center;
 }
 
@@ -340,7 +340,7 @@ header {
   font-size: 1.1rem;
 }
 
-#contact-container form label:not(:first-of-type ){
+#contact-container form label:not(:first-of-type) {
   margin-top: 20px;
 }
 
