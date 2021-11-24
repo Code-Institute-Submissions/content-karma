@@ -326,10 +326,6 @@ header {
 
 /* Contact section */
 
-/* #contact-container form * {
-  font-family: 'Quattrocento Sans', sans-serif;
-} */
-
 #contact-container form {
   display: flex;
   flex-direction: column;
