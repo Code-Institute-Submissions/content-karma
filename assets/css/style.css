@@ -76,24 +76,37 @@ section {
 .std-btn {
   font-family: 'Quattrocento Sans', sans-serif;
   font-size: 1.2em;
-  padding: 15px;
+  font-weight: bold;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  padding: 12px 24px;
+  border: 1px solid #b3822e;
   border-radius: 10px;
-  background-color: var(--orange);
-  border: 2px solid rgb(226, 121, 45);
-  box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.3),
-    2px 4px 4px rgba(0, 0, 0, 0.3),
-    3px 6px 6px rgba(0, 0, 0, 0.3);
-  transition: all 250ms;
-  user-select: none;
+  background: #ffba42;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffba42), to(#fe750d));
+  background: -moz-linear-gradient(top, #ffba42, #fe750d);
+  background: linear-gradient(to bottom, #ffba42, #fe750d);
+  color: #000000;
+  text-decoration: none;
 }
 
-.std-btn:hover {
-  filter: brightness(105%) drop-shadow(5px 10px 10px rgba(0, 0, 0, 0.5));
-  transform: scale(1.02, 1.02);
+.std-btn:hover,
+.std-btn:focus {
+  border: 1px solid #ffba42;
+  background: #ffdf4f;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffdf4f), to(#ff8c10));
+  background: -moz-linear-gradient(top, #ffdf4f, #ff8c10);
+  background: linear-gradient(to bottom, #ffdf4f, #ff8c10);
+  color: #000000;
+  text-decoration: none;
 }
 
 .std-btn:active {
-  transform: scale(0.95, 0.95);
+  background: #997028;
+  background: -webkit-gradient(linear, left top, left bottom, from(#997028), to(#fe750d));
+  background: -moz-linear-gradient(top, #997028, #fe750d);
+  background: linear-gradient(to bottom, #997028, #fe750d);
 }
 
 /* -- Header - Logo and Navigation -- */
