@@ -204,7 +204,7 @@ header {
 .team-container {
   display: flex;
   flex-wrap: wrap;
-  gap: 50px;
+  gap: 45px;
   justify-content: center;
 }
 
@@ -280,7 +280,7 @@ header {
 }
 
 .pricing-item {
-  width: 100%;
+  width: 300px;
   text-align: center;
   overflow: hidden;
   border-radius: 10px;
