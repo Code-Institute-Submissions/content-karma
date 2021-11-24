@@ -186,9 +186,9 @@ header {
   max-height: 100px;
 }
 
-/* -- Team section -- */
+/* -- Team and Testimonial section -- */
 
-#team-container {
+.team-container {
   display: flex;
   flex-wrap: wrap;
   gap: 50px;
