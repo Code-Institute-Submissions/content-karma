@@ -198,6 +198,7 @@ header {
   background-color: var(--body-bg-colour);
   border-radius: 10px;
   overflow: hidden;
+  box-shadow: 0px 0px 6px 6px rgba(58, 57, 57, 0.4);
 }
 
 .team-item-content {
@@ -239,10 +240,13 @@ header {
 }
 
 .team-item-socials a {
+  font-size: 1.2em;
   color: white;
+  transition: transform 0.1s;
 }
 
 .team-item-socials a:hover {
+  transform: scale(1.2, 1.2);
   color: black;
 }
 
