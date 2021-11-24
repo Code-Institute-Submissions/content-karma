@@ -324,6 +324,44 @@ header {
   border-bottom: 1px solid rgba(58, 57, 57, 0.2);
 }
 
+/* Contact section */
+
+#contact-container form {
+  
+  display: flex;
+  flex-direction: column;
+  margin: 0 10%;
+}
+
+#contact-container form label {
+  font-size: 1.2rem;
+}
+
+#contact-container form label:not(:first-of-type ){
+  margin-top: 20px;
+}
+
+#contact-container form textarea {
+  resize: none;
+  margin-bottom: 20px;
+}
+
+#contact-container form input,
+#contact-container form textarea {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+#contact-container form input:focus,
+#contact-container form textarea:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #f98530;
+}
+
+#contact-container form button {
+  align-self: center;
+}
+
 /* -- Media queries -- */
 
 /* Medium devices (tablets, 768px and up) */
@@ -374,5 +412,9 @@ header {
 
   .pricing-item {
     flex-basis: 300px;
+  }
+
+  #contact-container form textarea, #contact-container form input {
+    font-size: 1.1rem;
   }
 }
