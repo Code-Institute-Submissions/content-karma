@@ -326,19 +326,31 @@ header {
 
 /* Contact section */
 
+/* #contact-container form * {
+  font-family: 'Quattrocento Sans', sans-serif;
+} */
+
 #contact-container form {
-  
   display: flex;
   flex-direction: column;
   margin: 0 10%;
 }
 
 #contact-container form label {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 #contact-container form label:not(:first-of-type ){
   margin-top: 20px;
+}
+
+#contact-container form select {
+  font-family: 'Quattrocento Sans', sans-serif;
+  font-size: 1em;
+  padding: 5px;
+  border-radius: none;
+  background-color: none;
+  border: 1px solid black;
 }
 
 #contact-container form textarea {
@@ -350,10 +362,12 @@ header {
 #contact-container form textarea {
   border: 1px solid black;
   padding: 5px;
+  font-size: 1rem;
 }
 
 #contact-container form input:focus,
-#contact-container form textarea:focus {
+#contact-container form textarea:focus,
+#contact-container form select:focus {
   outline: none;
   box-shadow: 0 0 0 2px #f98530;
 }
@@ -414,7 +428,7 @@ header {
     flex-basis: 300px;
   }
 
-  #contact-container form textarea, #contact-container form input {
-    font-size: 1.1rem;
+  #contact-container form label {
+    font-size: 1.2rem;
   }
 }
