@@ -88,6 +88,7 @@ section {
   background: linear-gradient(to bottom, #ffba42, #fe750d);
   color: #000000;
   text-decoration: none;
+  cursor:pointer;
 }
 
 .std-btn:hover,
@@ -378,6 +379,7 @@ header {
   border-radius: none;
   background-color: none;
   border: 1px solid black;
+  cursor:pointer;
 }
 
 #contact-container form textarea {
