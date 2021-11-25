@@ -385,6 +385,42 @@ header {
   align-self: center;
 }
 
+/* Footer */
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  width: 100%;
+  padding: 15px;
+  border-top: 1px solid black;
+  user-select: none;
+}
+
+.footer-logo {
+  height: auto;
+}
+
+.footer-logo img {
+  height: 53.33px;
+}
+
+.footer-logo span {
+  font-size: 15px;
+}
+
+#footer-socials {
+  padding: 10px;
+}
+
+#footer-socials a {
+  font-size: 25px;
+  color: black;
+  text-decoration: none;
+  padding: 0 5px;
+}
+
 /* -- Media queries -- */
 
 /* Medium devices (tablets, 768px and up) */
@@ -439,5 +475,18 @@ header {
 
   #contact-container form label {
     font-size: 1.2rem;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+    padding: 15px 10%;
+  }
+
+  #footer-socials {
+    order: 1;
   }
 }
