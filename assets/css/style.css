@@ -481,17 +481,6 @@ footer {
     font-size: 1.4rem;
   }
 
-  /* Change layout of pricing grid to display in row */
-  #pricing-container {
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .pricing-item {
-    flex-basis: 300px;
-  }
-
   #contact-container form label {
     font-size: 1.2rem;
   }
@@ -512,6 +501,18 @@ footer {
 
 /* Large devices (desktops, 992px and up) */
 @media screen and (min-width: 992px) {
+
+  /* Change layout of pricing grid to display in row */
+  #pricing-container {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .pricing-item {
+    flex-basis: 300px;
+  }
+
   /* Hero img show on larger screens */
   #hero-img-container {
     position: relative;
