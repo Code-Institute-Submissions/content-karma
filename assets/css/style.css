@@ -121,7 +121,7 @@ header {
   border-bottom: 1px solid black;
 }
 
-#logo {
+.logo {
   display: flex;
   align-items: center;
   gap: 5px;
