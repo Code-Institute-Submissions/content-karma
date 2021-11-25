@@ -177,6 +177,13 @@ header {
   font-size: 1.3rem;
 }
 
+/* -- Section separation - wave (svg) -- */
+
+#wave {
+  transform: rotate(180deg);
+  margin-top: -1px;
+}
+
 /* -- Services section -- */
 
 #services-container {
