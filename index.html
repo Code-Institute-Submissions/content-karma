@@ -230,7 +230,7 @@
     <div id="contact-container">
       <form action="#open-modal">
         <label for="full-name">Name:</label>
-        <input type="text" name="full-name" id="full-name" placeholder="Enter your name..">
+        <input type="text" name="full-name" id="full-name" placeholder="Enter your name.." required>
         <label for="email">Email Address:</label>
         <input type="email" name="email" id="email" placeholder="Enter your email address.." required>
         <label for="subject">Subject:</label>
@@ -241,8 +241,9 @@
           <option value="discuss-packages">Discuss Packages</option>
         </select>
         <label for="message-content">Message:</label>
-        <textarea name="message-content" id="message-content" rows="10"
-          placeholder="Let us know how we can help.."></textarea>
+        <textarea 
+          name="message-content" id="message-content" rows="10"
+          placeholder="Let us know how we can help.." required></textarea>
         <button class="std-btn" type="submit">Send Message</button>
       </form>
     </div>
