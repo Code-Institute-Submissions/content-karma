@@ -55,7 +55,7 @@ h3 {
 
 /* Applies a background colour to only the sections of the page whose index is
 an even, producing and alternating colour scheme */
-section:nth-child(even) {
+section:nth-of-type(odd) {
   background-color: var(--blue);
 }
 
