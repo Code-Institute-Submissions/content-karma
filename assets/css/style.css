@@ -165,13 +165,25 @@ header {
 /* -- Hero section -- */
 
 #hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px
+}
+
+#hero-img-container {
+  display: none;
+}
+
+#hero-container {
   text-align: center;
 }
 
 /* Add padding to all children of the hero section except the last */
-#hero-section :not(:last-child) {
+#hero-container :not(:last-child) {
   margin-bottom: 40px;
 }
+
 
 .hero-paragraph {
   font-size: 1.3rem;
@@ -495,5 +507,41 @@ footer {
 
   #footer-socials {
     order: 1;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+  /* Hero img show on larger screens */
+  #hero-img-container {
+    position: relative;
+    display: block;
+    min-width: 380px;
+    height: 500px;
+  }
+
+  .hero-img-bg {
+    position: absolute;
+    width: 500px;
+    left: -70px;
+  }
+
+  .hero-img-fg {
+    width: 230px;
+    position: absolute;
+    bottom: 25%;
+    right: 20%;
+    transform: rotate(5deg);
+    animation: hero-img-fade 3s forwards;
+  }
+
+  @keyframes hero-img-fade {
+    from {
+      opacity: 0%;
+    }
+
+    to {
+      opacity: 100%;
+    }
   }
 }
