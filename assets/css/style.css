@@ -13,7 +13,6 @@
 /* Configure universal box-sizing to make box model layout calculations easier */
 html {
   box-sizing: border-box;
-  scroll-behavior: smooth;
 }
 
 *,
@@ -545,6 +544,10 @@ footer {
 /* Large devices (desktops, 992px and up) */
 @media screen and (min-width: 992px) {
 
+  html {
+    scroll-behavior: smooth;
+  }
+
   /* Change layout of pricing grid to display in row */
   #pricing-container {
     flex-direction: row;
@@ -587,5 +590,11 @@ footer {
     to {
       opacity: 100%;
     }
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: none;
   }
 }
