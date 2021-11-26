@@ -506,6 +506,7 @@ footer {
 
 #video-content iframe {
   padding-bottom: 50px;
+  border: none;
 }
 
 .embedtool {
