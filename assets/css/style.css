@@ -72,6 +72,7 @@ section {
 
 /* -- Standard buttons -- */
 
+/* Credit: Button style created using tool from https://buttonoptimizer.com */
 .std-btn {
   font-family: 'Quattrocento Sans', sans-serif;
   font-size: 1.2em;
@@ -180,13 +181,14 @@ header {
   margin-bottom: 40px;
 }
 
-
 .hero-paragraph {
   font-size: 1.3rem;
 }
 
 /* -- Section separation - wave (svg) -- */
 
+/* Credit: SVG generated using tool from softr -
+https://www.softr.io/tools/svg-wave-generator */
 #wave {
   transform: rotate(180deg);
   margin-top: -1px;
@@ -406,6 +408,8 @@ header {
 
 /* Modal window */
 
+/* <!-- Credit: Model adapted from example by Timothy Long - 
+https://codepen.io/timothylong/pen/HhAer/ --> */
 .modal-window {
   position: fixed;
   background-color: rgba(255, 255, 255, 0.25);
@@ -413,7 +417,7 @@ header {
   right: 0;
   bottom: 0;
   left: 0;
-  z-index: 100;
+  z-index: 999;
   visibility: hidden;
   opacity: 0;
   pointer-events: none;
@@ -501,6 +505,8 @@ footer {
   border: none;
 }
 
+/* Credit: Responsive YouTube embed code from ilmigo - 
+https://www.ilmigo.com/tools/responsive-youtube-embed-code-generator/ */
 .embedtool {
   position: relative;
   height: 0;
