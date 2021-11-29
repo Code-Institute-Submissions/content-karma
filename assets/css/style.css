@@ -165,7 +165,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 40px
+  gap: 40px;
 }
 
 #hero-img-container {
@@ -189,7 +189,7 @@ header {
 
 /* Credit: SVG generated using tool from softr -
 https://www.softr.io/tools/svg-wave-generator */
-#wave {
+#section-separator {
   transform: rotate(180deg);
   margin-top: -1px;
 }
