@@ -223,14 +223,14 @@ https://www.softr.io/tools/svg-wave-generator */
 
 /* -- Team and Testimonial section -- */
 
-.team-container {
+.people-container {
   display: flex;
   flex-wrap: wrap;
   gap: 45px;
   justify-content: center;
 }
 
-.team-item {
+.people-item {
   flex-basis: 300px;
   background-color: var(--wild-sand);
   border-radius: 10px;
@@ -238,7 +238,7 @@ https://www.softr.io/tools/svg-wave-generator */
   box-shadow: 0px 0px 6px 6px rgba(32, 32, 32, 0.4);
 }
 
-.team-item-content {
+.people-item-content {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -247,26 +247,26 @@ https://www.softr.io/tools/svg-wave-generator */
   padding: 20px;
 }
 
-.team-item-content-image {
+.people-item-content-image {
   height: 100px;
   width: 100px;
   border-radius: 50%;
   margin-bottom: 20px;
 }
 
-.team-item-content-name {
+.people-item-content-name {
   font-weight: bold;
 }
 
-.team-item-content-role {
+.people-item-content-role {
   font-style: italic;
 }
 
-.team-item-content-intro {
+.people-item-content-intro {
   margin-top: 20px;
 }
 
-.team-item-socials {
+.people-item-socials {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -276,13 +276,13 @@ https://www.softr.io/tools/svg-wave-generator */
   background-color: var(--orange);
 }
 
-.team-item-socials a {
+.people-item-socials a {
   font-size: 1.2em;
   color: white;
   transition: transform 0.1s;
 }
 
-.team-item-socials a:hover {
+.people-item-socials a:hover {
   transform: scale(1.2, 1.2);
   color: black;
 }
