@@ -527,6 +527,22 @@ https://www.ilmigo.com/tools/responsive-youtube-embed-code-generator/ */
   position: initial !important
 }
 
+/* 404 Page */
+
+#not-found {
+  height: 100vh;
+  background-color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap:5vh;
+  align-items: center;
+  justify-content: center;
+}
+#not-found img {
+max-width: 400px;
+}
+
 /* -- Media queries -- */
 
 /* Medium devices (tablets, 768px and up) */
