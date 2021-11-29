@@ -376,10 +376,6 @@ https://www.softr.io/tools/svg-wave-generator */
 }
 
 #contact-container form select {
-  font-family: 'Quattrocento Sans', sans-serif;
-  font-size: 1em;
-  padding: 5px;
-  border: 1px solid black;
   cursor: pointer;
 }
 
@@ -389,10 +385,12 @@ https://www.softr.io/tools/svg-wave-generator */
 }
 
 #contact-container form input,
-#contact-container form textarea {
+#contact-container form textarea,
+#contact-container form select {
   border: 1px solid black;
   padding: 5px;
   font-size: 1rem;
+  border-radius: 5px;
 }
 
 #contact-container form input:focus,
