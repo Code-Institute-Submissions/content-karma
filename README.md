@@ -88,15 +88,15 @@ Content Karma is a site designed to advertise the services of a content marketin
   - Services Section
     <div align="center"><img src="https://via.placeholder.com/900x300"></div>
     <ul>
-    <li>Displays the core services offered by the business in a concise way.</li>
-    <li>Imaginary used to compliment the wording and provide further context for sighted visitors.</li>
-    <li>Link at the bottom of the section to a page which shows a video of why content marketing is important for businesses.</li>
+      <li>Displays the core services offered by the business in a concise way.</li>
+      <li>Imaginary used to compliment the wording and provide further context for sighted visitors.</li>
+      <li>Link at the bottom of the section to a page which shows a video of why content marketing is important for businesses.</li>
     </ul>
 
   - Why Invest Page
       <div align="center"><img src="https://via.placeholder.com/900x300"></div>
       <ul>
-      <li>This page is linked below the services section to highlight the benefits of content marketing.</li>
+        <li>This page is linked below the services section to highlight the benefits of content marketing.</li>
       </ul>
 
   - Team Section
@@ -110,30 +110,28 @@ Content Karma is a site designed to advertise the services of a content marketin
   - Pricing Section
     <div align="center"><img src="https://via.placeholder.com/900x300"></div>
     <ul>
-    <li>Advertise to visitors what combinations of services are available.</li>
-    <li>Provides an indication as to the cost of services.</li>
-    <li>Call to action at the bottom of the section prompting visitors to get in touch to request a quote and or discuss a bespoke service.</li>
+      <li>Advertise to visitors what combinations of services are available.</li>
+      <li>Provides an indication as to the cost of services.</li>
+      <li>Call to action at the bottom of the section prompting visitors to get in touch to request a quote and or discuss a bespoke service.</li>
     </ul>
 
   - Testimonials
     <div align="center"><img src="https://via.placeholder.com/900x300"></div>
     <ul>
-    <li>Build trust in the brand by showing examples of satisfied customers.</li>
+      <li>Build trust in the brand by showing examples of satisfied customers.</li>
     </ul>
 
   - Contact Form
     <div align="center"><img src="https://via.placeholder.com/900x300"></div>
     <ul>
-    <li>Generate a business lead by allowing the visitor of the site to send a message to the site owner.</li>
-    <li>A subject field prompts the visitor as to the topic of the enquiry which guides the user and would assist in prioritization of the queries by the back office team, all fields are mandatory to ensure the maximum information is gathered.</li>
-    <li></li>
+      <li>Generate a business lead by allowing the visitor of the site to send a message to the site owner.</li>
+      <li>A subject field prompts the visitor as to the topic of the enquiry which guides the user and would assist in prioritization of the queries by the back office team, all fields are mandatory to ensure the maximum information is gathered.</li>
     </ul>
 
   - Footer
     <div align="center"><img src="https://via.placeholder.com/900x300"></div>
     <ul>
-    <li>Provide a link to the social pages for the business and show copyright information.</li>
-    <li></li>
+      <li>Provide a link to the social pages for the business and show copyright information.</li>
     </ul>
     
   - ### Future Development
@@ -170,7 +168,7 @@ Content Karma is a site designed to advertise the services of a content marketin
   1. [GIMP:](https://www.gimp.org/)
       - GIMP was used to create the logo, and edit and resize photos for the website.
   1. [Balsamiq:](https://balsamiq.com/)
-      - Balsamiq was used to create the [wireframes](LINK TO SECTION) during the design process.
+      - Balsamiq was used to create the [wireframes](#wireframes) during the design process.
 
 ## Testing
 
@@ -179,7 +177,7 @@ Content Karma is a site designed to advertise the services of a content marketin
   All test pass with no errors and the results can be viewed by visiting the linked pages below: 
 
   -   [Results for index page (HTML)](https://validator.w3.org/nu/?doc=https%3A%2F%2Fianmeigh.github.io%2Fcontent-karma%2Findex.html)
-  -   [Results for why-invest page (HTML)](https://validator.w3.org/nu/?doc=https%3A%2F%2Fianmeigh.github.io%2Fcontent-karma%2Fwhy-content-marketing.html)
+  -   [Results for why-invest page (HTML)](https://validator.w3.org/nu/?doc=https%3A%2F%2Fianmeigh.github.io%2Fcontent-karma%2Fwhy-invest.html)
   -   [Results for CSS](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fianmeigh.github.io%2Fcontent-karma%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
   ### Further Testing
