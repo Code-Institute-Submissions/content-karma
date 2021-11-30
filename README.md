@@ -1,6 +1,6 @@
 # Content Karma
 
-Content Karma is a site designed to advertise the services of a content marketing and brand review company. The sites target audience is small to medium business owners who are interested in assistance creating content to engage with their customer base. The site aims to inform visitors of what the business has to offer and encourage them to get in contact.
+Content Karma is a site designed to advertise the services of a content marketing and brand review company. The site's target audience is small to medium business owners who are looking for assistance creating content to engage with their customer base. The site aims to inform visitors what the business has to offer and encourage them to get in contact.
 
 <div align="center"><img src="assets/images/readme-multi-device-screenshot.png"></div>
 
@@ -45,7 +45,7 @@ Content Karma is a site designed to advertise the services of a content marketin
     - As a first time visitor:
       - I want to find out what services are offered.
       - I want to understand the cost of services.
-      - I want to get a sense of how reputable to company is.
+      - I want to get a sense of how reputable the company is.
       - I want to know the benefits that content marketing can bring to my business.
 
   - #### Returning Visitor Goals
@@ -66,7 +66,7 @@ Content Karma is a site designed to advertise the services of a content marketin
        - Mobile Wireframe - [View](assets/images/readme-wireframes-mobile.png)
 
   - #### Colour Scheme
-    - The colour scheme was chosen to be calming and provide good contrast with the exception of the orange which was chosen to stand out (and because of it was a complimentary colour of the purple).
+    - The colour scheme was chosen to be calming in keeping with the site's branding and provide good contrast with the exception of the orange which was chosen to stand out (and because it was a complimentary colour of the purple).
     <br><img src="assets/images/readme-colourscheme.png">
 
   - #### Typography
@@ -89,8 +89,8 @@ Content Karma is a site designed to advertise the services of a content marketin
     <div align="center"><img src="assets/images/readme-feature-services.png"></div>
     <ul>
       <li>Displays the core services offered by the business in a concise way.</li>
-      <li>Imaginary used to compliment the wording and provide further context for sighted visitors.</li>
-      <li>Link at the bottom of the section to a page which shows a video of why content marketing is important for businesses.</li>
+      <li>Imagery used to compliment the wording and provide further context for sighted visitors.</li>
+      <li>Link at the bottom of the section to a page which shows a video explaining why content marketing is important for their business.</li>
     </ul>
 
   - Why Invest Page
@@ -112,7 +112,7 @@ Content Karma is a site designed to advertise the services of a content marketin
     <ul>
       <li>Advertise to visitors what combinations of services are available.</li>
       <li>Provides an indication as to the cost of services.</li>
-      <li>Call to action at the bottom of the section prompting visitors to get in touch to request a quote and or discuss a bespoke service.</li>
+      <li>Call to action at the bottom of the section prompting visitors to get in touch to request a quote and/or discuss a bespoke service.</li>
     </ul>
 
   - Testimonials
@@ -125,7 +125,7 @@ Content Karma is a site designed to advertise the services of a content marketin
     <div align="center"><img src="assets/images/readme-feature-contact.png"></div>
     <ul>
       <li>Generate a business lead by allowing the visitor of the site to send a message to the site owner.</li>
-      <li>A subject field prompts the visitor as to the topic of the enquiry which guides the user and would assist in prioritization of the queries by the back office team, all fields are mandatory to ensure the maximum information is gathered.</li>
+      <li>A subject field prompts the visitor as to the topic of the enquiry which guides the user and would assist in prioritization of the queries by the back office team. Essential fields are mandatory to ensure sufficient information is gathered.</li>
     </ul>
 
   - Footer
@@ -137,7 +137,7 @@ Content Karma is a site designed to advertise the services of a content marketin
   - 404 Page
     <div align="center"><img src="assets/images/readme-feature-404.png"></div>
     <ul>
-      <li>Provides a way for visitors to get back to the main page if a bookmarked link is chnaged of there is a navigation error.</li>
+      <li>Provides a way for visitors to get back to the main page if a bookmarked link has changed or there is a navigation error.</li>
     </ul>
     
   - ### Future Development
@@ -146,7 +146,7 @@ Content Karma is a site designed to advertise the services of a content marketin
     - Carousel
       - Would display on mobile screens for the services and testimonials sections to reduce their height and the need for vertical scrolling.
     - Back-to-top button
-      - Allowing visitor to jump to the top of the page in lue of a fixed/sticky navigation menu.
+      - Allowing visitor to jump to the top of the page in lieu of a fixed/sticky navigation menu.
     - Blog
       - To allow business owner to demonstrate content writing ability and highlight the reasons content marketing is important.
     - Email Newsletter
@@ -184,6 +184,7 @@ Content Karma is a site designed to advertise the services of a content marketin
 
   -   [Results for index page (HTML)](https://validator.w3.org/nu/?doc=https%3A%2F%2Fianmeigh.github.io%2Fcontent-karma%2Findex.html)
   -   [Results for why-invest page (HTML)](https://validator.w3.org/nu/?doc=https%3A%2F%2Fianmeigh.github.io%2Fcontent-karma%2Fwhy-invest.html)
+  -   [Results for 404 page (HTML)](https://validator.w3.org/nu/?doc=https%3A%2F%2Fianmeigh.github.io%2Fcontent-karma%2F404.html)
   -   [Results for CSS](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fianmeigh.github.io%2Fcontent-karma%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
   ### Further Testing
@@ -199,11 +200,14 @@ Content Karma is a site designed to advertise the services of a content marketin
         <br><img src="assets/images/readme-testing-lighthouse-desktop.png">
       - Mobile
         <br><img src="assets/images/readme-testing-lighthouse-whyinvest-mobile.png">
+    - 404.html
+      - Desktop and Mobile
+        <br><img src="assets/images/readme-testing-lighthouse-404.png">
   - Tested using a Firefox, Chrome, Web (GNOME WebKitGTK browser), an iPad and an iPhone SE for inconsistencies.
 
   ### Fixed Bugs
 
-  Throughout the project a number of issue were identified from continual testing:
+  Throughout the project a number of issues were identified from continual testing:
 
   - Design Decisions
     - The services and team/about section were swapped as it was decided that services should be below the page fold and were more important to page flow.
@@ -295,7 +299,7 @@ Content Karma is a site designed to advertise the services of a content marketin
       - Element of the README were copied and adapted from the Code Institute sample readme.
   1. [w3schools Tutorial - Scroll to top](https://www.w3schools.com/howto/howto_js_scroll_to_top.asp) - Javascript and partial style code used for back to top button that appears when scrolling past the navigation.
   1. The following [Visual Studio Code](https://code.visualstudio.com/) extensions were utilized in the production of this project:
-      - [Beautify](https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify) - Used for code refact­oring.
+      - [Beautify](https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify) - Used for code formatting.
       - [Rewrap](https://marketplace.visualstudio.com/items?itemName=stkb.rewrap) - Used to wrap comments and site text.
       - [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) - Used to spell check content and commits.
       - [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) - Used to provide a locally hosted live preview of the site during development.
@@ -327,5 +331,5 @@ Content Karma is a site designed to advertise the services of a content marketin
 
   ### Acknowledgements
 
-  - My mentor for their advise, encouragement and support throughout this project.
+  - My mentor for their advice, encouragement and support throughout this project.
   - The Code Institute Slack community.
