@@ -2,7 +2,7 @@
 
 Content Karma is a site designed to advertise the services of a content marketing and brand review company. The sites target audience is small to medium business owners who are interested in assistance creating content to engage with their customer base. The site aims to inform visitors of what the business has to offer and encourage them to get in contact.
 
-<div align="center"><img src="https://via.placeholder.com/900x300"></div>
+<div align="center"><img src="assets/images/readme-multi-device-screenshot.png"></div>
 
 ## Demo
 [View the live project here.](https://ianmeigh.github.io/content-karma/)
@@ -74,19 +74,19 @@ Content Karma is a site designed to advertise the services of a content marketin
 
 ## Features
   - Heading and Navigation
-    <div align="center"><img src="https://via.placeholder.com/900x300"></div>
+    <div align="center"><img src="assets/images/readme-feature-nav.png"></div>
     <ul>
       <li>The navigation is featured at the top of each page and provides links to primary sections of the site.</li>
     </ul>
 
   - Hero Section
-    <div align="center"><img src="https://via.placeholder.com/900x300"></div>
+    <div align="center"><img src="assets/images/readme-feature-hero.png"></div>
     <ul>
       <li>Provides a clear indication of the purpose of the site and a call to action for returning visitors to get in contact.</li>
     </ul>
 
   - Services Section
-    <div align="center"><img src="https://via.placeholder.com/900x300"></div>
+    <div align="center"><img src="assets/images/readme-feature-services.png"></div>
     <ul>
       <li>Displays the core services offered by the business in a concise way.</li>
       <li>Imaginary used to compliment the wording and provide further context for sighted visitors.</li>
@@ -94,13 +94,13 @@ Content Karma is a site designed to advertise the services of a content marketin
     </ul>
 
   - Why Invest Page
-      <div align="center"><img src="https://via.placeholder.com/900x300"></div>
+      <div align="center"><img src="assets/images/readme-feature-whyinvest.png"></div>
       <ul>
         <li>This page is linked below the services section to highlight the benefits of content marketing.</li>
       </ul>
 
   - Team Section
-    <div align="center"><img src="https://via.placeholder.com/900x300"></div>
+    <div align="center"><img src="assets/images/readme-feature-team.png"></div>
     <ul>
       <li>Provides an introduction to the staff of the business whom the visitor could work with.</li>
       <li>Aim to humanize the business and build a personal connection with the visitor.</li>
@@ -108,7 +108,7 @@ Content Karma is a site designed to advertise the services of a content marketin
     </ul>
 
   - Pricing Section
-    <div align="center"><img src="https://via.placeholder.com/900x300"></div>
+    <div align="center"><img src="assets/images/readme-feature-pricing.png"></div>
     <ul>
       <li>Advertise to visitors what combinations of services are available.</li>
       <li>Provides an indication as to the cost of services.</li>
@@ -116,22 +116,28 @@ Content Karma is a site designed to advertise the services of a content marketin
     </ul>
 
   - Testimonials
-    <div align="center"><img src="https://via.placeholder.com/900x300"></div>
+    <div align="center"><img src="assets/images/readme-feature-testimonials.png"></div>
     <ul>
       <li>Build trust in the brand by showing examples of satisfied customers.</li>
     </ul>
 
   - Contact Form
-    <div align="center"><img src="https://via.placeholder.com/900x300"></div>
+    <div align="center"><img src="assets/images/readme-feature-contact.png"></div>
     <ul>
       <li>Generate a business lead by allowing the visitor of the site to send a message to the site owner.</li>
       <li>A subject field prompts the visitor as to the topic of the enquiry which guides the user and would assist in prioritization of the queries by the back office team, all fields are mandatory to ensure the maximum information is gathered.</li>
     </ul>
 
   - Footer
-    <div align="center"><img src="https://via.placeholder.com/900x300"></div>
+    <div align="center"><img src="assets/images/readme-feature-footer.png"></div>
     <ul>
       <li>Provide a link to the social pages for the business and show copyright information.</li>
+    </ul>
+
+  - 404 Page
+    <div align="center"><img src="assets/images/readme-feature-404.png"></div>
+    <ul>
+      <li>Provides a way for visitors to get back to the main page if a bookmarked link is chnaged of there is a navigation error.</li>
     </ul>
     
   - ### Future Development
