@@ -293,6 +293,7 @@ Content Karma is a site designed to advertise the services of a content marketin
       - Code used for the form submission modal/popup.
   1. [Code Institute Sample README](https://github.com/Code-Institute-Solutions/SampleREADME)
       - Element of the README were copied and adapted from the Code Institute sample readme.
+  1. [w3schools Tutorial - Scroll to top](https://www.w3schools.com/howto/howto_js_scroll_to_top.asp) - Javascript and partial style code used for back to top button that appears when scrolling past the navigation.
   1. The following [Visual Studio Code](https://code.visualstudio.com/) extensions were utilized in the production of this project:
       - [Beautify](https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify) - Used for code refact­oring.
       - [Rewrap](https://marketplace.visualstudio.com/items?itemName=stkb.rewrap) - Used to wrap comments and site text.
