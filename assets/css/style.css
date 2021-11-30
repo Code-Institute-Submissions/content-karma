@@ -60,7 +60,7 @@ section:nth-of-type(odd) {
 
 /* Padding that will apply to all section elements */
 section {
-  padding: 25px 5%;
+  padding: 50px 5%;
 }
 
 /* -- Multiple use classes -- */
@@ -68,6 +68,10 @@ section {
 .section-heading {
   margin-bottom: 50px;
   text-align: center;
+}
+
+.margin-bottom {
+  margin-bottom: 50px;
 }
 
 /* -- Standard buttons -- */
@@ -205,7 +209,6 @@ https://www.softr.io/tools/svg-wave-generator */
   flex-wrap: wrap;
   gap: 50px;
   justify-content: center;
-  margin-bottom: 50px;
 }
 
 .service-item {
@@ -298,7 +301,6 @@ https://www.softr.io/tools/svg-wave-generator */
   flex-direction: column;
   align-items: center;
   gap: 50px;
-  margin-bottom: 50px;
 }
 
 .pricing-item {
@@ -364,11 +366,20 @@ https://www.softr.io/tools/svg-wave-generator */
 #contact-container form {
   display: flex;
   flex-direction: column;
-  margin: 0 10%;
+  max-width: 750px;
+  margin: 0 auto;
+  padding: 35px;
+  background-color: var(--wild-sand);
+  border-radius: 10px;
+  box-shadow: 0px 0px 6px 6px rgba(32, 32, 32, 0.4);
 }
 
 #contact-container form label {
   font-size: 1.1rem;
+}
+
+#contact-container form label {
+  margin-bottom: 2px;
 }
 
 #contact-container form label:not(:first-of-type) {
@@ -548,12 +559,13 @@ https://www.ilmigo.com/tools/responsive-youtube-embed-code-generator/ */
   text-align: center;
   display: flex;
   flex-direction: column;
-  gap:5vh;
+  gap: 5vh;
   align-items: center;
   justify-content: center;
 }
+
 #not-found img {
-max-width: 400px;
+  max-width: 400px;
 }
 
 /* -- Media queries -- */
@@ -588,9 +600,23 @@ max-width: 400px;
     padding: 20px 10%;
   }
 
-  /* Increase section padding */
+  /* Increase spacing */
+  .section-heading {
+    margin-bottom: 75px;
+    text-align: center;
+  }
+
   section {
-    padding: 6vh 10%;
+    padding: 120px 10%;
+  }
+
+  .margin-bottom {
+    margin-bottom: 75px;
+  }
+
+  /* Exclude hero section from spacing increase */
+  #hero-section {
+    padding: 75px 10%;
   }
 
   .hero-paragraph {
